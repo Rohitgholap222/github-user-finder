@@ -55,12 +55,7 @@ export default function NotesPage() {
         <div className="absolute bottom-[20%] right-[20%] w-[30%] h-[30%] rounded-full bg-amber-500/10 blur-[100px]" />
       </div>
 
-      <div className="relative z-10 w-full max-w-2xl mt-8">
-        <Link href="/" className="inline-flex items-center text-sm font-medium text-gray-500 dark:text-zinc-400 hover:text-gray-900 dark:hover:text-white transition-colors mb-6 ml-2">
-          <svg className="w-4 h-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2"><path strokeLinecap="round" strokeLinejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
-          Back to GitHub Finder
-        </Link>
-        
+      <div className="relative z-10 w-full max-w-2xl mt-8">        
         <div className="w-full bg-white/70 dark:bg-zinc-900/70 backdrop-blur-xl border border-gray-200 dark:border-zinc-800 p-6 sm:p-8 rounded-3xl shadow-2xl flex flex-col">
           <div className="flex items-center mb-8">
             <div className="w-12 h-12 bg-linear-to-tr from-yellow-400 to-amber-600 rounded-2xl flex items-center justify-center shadow-lg mr-4 text-white">
