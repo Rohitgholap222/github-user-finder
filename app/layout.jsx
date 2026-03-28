@@ -46,6 +46,11 @@ export default function RootLayout({ children }) {
               Notes
             </Link>
 
+            <Link href="/weather-check" className="flex items-center text-sm font-semibold text-gray-600 dark:text-zinc-300 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors whitespace-nowrap">
+              <svg className="w-4 h-4 mr-1.5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z"/><path d="M12 7v1"/></svg>
+              Weather
+            </Link>
+
             {/* Ready for future features! Just add another <Link> here */}
           </nav>
         </header>
