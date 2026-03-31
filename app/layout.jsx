@@ -12,7 +12,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Github User Finder",
+  title: {
+    default: "My App",
+    template: "%s | My App",
+  },
   description: "Find Github Users effortlessly",
 };
 
